@@ -1,0 +1,1158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main1 {
+    height: 700px;
+    width: 100%;
+    background-image: url(https://xstore.b-cdn.net/elementor2/spices/wp-content/uploads/sites/10/2023/05/slide01-min.png);
+    background-size: cover;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.main1 nav {
+    height: inherit;
+    width: 35%;
+    /* border: 1px solid white; */
+    font-family: 'Jost', sans-serif;
+    line-height: 100px;
+}
+
+.main1 nav i {
+    margin-left: 100px;
+    border-bottom: 3px solid #a22529;
+    color: white;
+    padding-bottom: 9px;
+}
+
+.main1 nav a {
+    text-decoration: none;
+    margin-inline: 10px;
+    color: white;
+}
+
+.main1 nav a:hover {
+    border-bottom: 3px solid #a22529;
+    padding-bottom: 5px;
+}
+
+.main1 header .logo {
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid white; */
+}
+
+.main1 header .logo img {
+    height: 90px;
+    width: 130px;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+
+.main1 header .nav2 {
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid white; */
+}
+
+.main1 header .nav2 i {
+    line-height: 100px;
+    font-size: 25px;
+    color: white;
+    margin-inline: 25px;
+    margin-left: 10px;
+}
+
+.main1 header .nav2 #i1 {
+    margin-left: 200px;
+
+}
+
+.main1 header #i2 {
+    color: white;
+    line-height: 100px;
+    font-size: 25px;
+    display: none;
+}
+
+.section1 {
+    height: 200px;
+    width: 700px;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+.section1 p {
+    font-size: 18px;
+}
+
+.section1 h1 {
+    font-size: 75px;
+    font-family: "EB Garamond";
+    font-weight: lighter;
+}
+
+.section1 button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    transition-duration: 1s;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.section1 button:hover {
+    background-color: #a22529;
+    color: white;
+}
+
+.section2 {
+    height: 330px;
+    width: 100%;
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/BG1-min.jpeg);
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
+}
+
+.section2 h1 {
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.section2 .child1 {
+    height: 220px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    display: flex;
+}
+
+.section2 .child1 .s1 {
+    height: inherit;
+    width: 140px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-inline: 5px;
+    background-color: white;
+}
+
+.section2 .child1 .s1 img {
+    height: 170px;
+    width: inherit;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.section2 .child1 .s1 img:hover {
+    transform: scale(0.9);
+}
+
+.section2 .child1 .s1 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main2 {
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-family: "EB Garamond";
+}
+
+.main2 h1 {
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.main2 .img1 {
+    height: 80px;
+    width: 200px;
+    margin-top: -80px;
+    margin-left: 170px;
+}
+
+.main2 .section3 {
+    height: 500px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .section3 .s2 {
+    height: 400px;
+    width: 24%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.main2 .section3 .s3 {
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-1-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+
+.main2 .section3 .s5 {
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-2-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main2 .section3 .s6 {
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-3-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main2 .section3 .s7 {
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-4-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main2 .section3 .s3:hover {
+    transform: scale(0.9);
+}
+
+.main2 .section3 .s5:hover {
+    transform: scale(0.9);
+}
+
+
+.main2 .section3 .s6:hover {
+    transform: scale(0.9);
+}
+
+
+.main2 .section3 .s7:hover {
+    transform: scale(0.9);
+}
+
+.main2 .section3 .s4 {
+    height: 130px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-family: 'Jost', sans-serif;
+}
+
+.main2 .section3 .s4 h3 {
+    margin-top: 10px;
+}
+
+.main2 .section3 .s4 p {
+    color: #a22529;
+    margin-top: 10px;
+}
+
+.main2 .section3 .s4 button {
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    width: 265px;
+    background-color: #a22529;
+    border: 0px;
+    transition-duration: 1s;
+}
+
+.main2 .section3 .s4 button:hover {
+    background-color: black;
+}
+
+.main3 {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.main3 .s8 {
+    height: inherit;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+.main3 .s9 {
+    height: inherit;
+    width: 55%;
+    /* border: 1px solid black; */
+}
+
+.main3 .s8 .s10 {
+    height: 300px;
+    width: 450px;
+    margin-left: 130px;
+    margin-top: 110px;
+    /* border: 1px solid black; */
+}
+
+.main3 .s8 .s10 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: "EB Garamond";
+}
+
+.main3 .s8 .s10 p {
+    font-family: 'Jost', sans-serif;
+    width: 400px;
+    color: #767373;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main3 .s8 .s10 button {
+    height: 50px;
+    margin-top: 70px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition-duration: 1s;
+    font-weight: bold;
+    background-color: white;
+}
+
+.main3 .s8 .s10 button:hover {
+    background-color: #a22529;
+    border: 0px;
+    color: white;
+}
+
+.s11 {
+    height: 410px;
+    width: 670px;
+    border: 1px solid white;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(162, 37, 41, 0), rgba(162, 37, 41, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Image-min.jpeg);
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+.s11:hover {
+    background-image: linear-gradient(rgba(162, 37, 41, 0), rgba(162, 37, 41, 0.7)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Image-min.jpeg);
+}
+
+.s11:hover h1{
+    color: white;
+    margin-top: 150px;
+    transform: rotatex(360deg);
+    font-size: 70px;
+}
+
+.s11 h1 {
+    font-family: "EB Garamond";
+    font-weight: lighter;
+    color: #a22529;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 45px;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.main4 {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.main4 button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    /* border: 3px solid black; */
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+.main4 button:hover {
+    border: 0px;
+    background-color: #a22529;
+    color: white;
+}
+
+.main4 h1 {
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.main4 .img2 {
+    height: 90px;
+    width: 350px;
+    margin-top: -80px;
+    margin-left: 150px;
+}
+
+.main4 .section4 {
+    height: 250px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main4 .section4 .s12 {
+    height: inherit;
+    width: 23%;
+    /* border: 1px solid black; */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main4 .section4 .s13 {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-1-min.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main4 .section4 .s13:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgba(162, 37, 41, 0.5), rgba(162, 37, 41, 0.5)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-1-min.jpg);
+
+}
+
+.main4 .section4 .s13 .s14 {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    color: white;
+    margin-left: -180px;
+    display: none;
+    transition-duration: 10s;
+}
+
+.main4 .section4 .s13 .s14 i {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.main4 .section4 .s13:hover .s14 {
+    margin-left: -180px;
+    display: block;
+}
+
+.main4 .section4 .s18 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    display: none;
+    margin-left: 10px;
+}
+
+.main4 .section4 .s12:hover .s18 {
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.main4 .section4 .s13 p {
+    margin-left: -130px;
+    color: white;
+    /* margin-top: 130px; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main4 .section4 .s13 h3 {
+    margin-left: -25px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+
+}
+
+
+.main4 .section4 .s15 {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-7-min.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main4 .section4 .s15:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgba(162, 37, 41, 0.5), rgba(162, 37, 41, 0.5)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-7-min.jpg);
+
+}
+
+.main4 .section4 .s15 .s14 {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    color: white;
+    margin-left: -180px;
+    display: none;
+    transition-duration: 10s;
+}
+
+.main4 .section4 .s15 .s14 i {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.main4 .section4 .s15:hover .s14 {
+    margin-left: -180px;
+    display: block;
+}
+
+.main4 .section4 .s22 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    display: none;
+    margin-left: 10px;
+}
+
+.main4 .section4 .s12:hover .s22 {
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.main4 .section4 .s22 p {
+    margin-left: 300px;
+    color: white;
+    /* margin-top: 130px; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main4 .section4 .s22 h3 {
+    margin-left: -250px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+.main4 .section4 .s16 {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-7-min.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main4 .section4 .s16:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgba(162, 37, 41, 0.5), rgba(162, 37, 41, 0.5)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-7-min.jpg);
+
+}
+
+.main4 .section4 .s16 .s14 {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    color: white;
+    margin-left: -180px;
+    display: none;
+    transition-duration: 10s;
+}
+
+.main4 .section4 .s16 .s14 i {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.main4 .section4 .s16:hover .s14 {
+    margin-left: -180px;
+    display: block;
+}
+
+.main4 .section4 .s22 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    display: none;
+    margin-left: 10px;
+}
+
+.main4 .section4 .s12:hover .s22 {
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.main4 .section4 .s22 p {
+    margin-left: -130px;
+    color: white;
+    /* margin-top: 130px; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main4 .section4 .s22 h3 {
+    margin-left: -100px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+
+}
+
+
+
+
+.main4 .section4 .s17 {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-8-min.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main4 .section4 .s17:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgba(162, 37, 41, 0.5), rgba(162, 37, 41, 0.5)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-8-min.jpg);
+
+}
+
+.main4 .section4 .s17 .s14 {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    color: white;
+    margin-left: -180px;
+    display: none;
+    transition-duration: 10s;
+}
+
+.main4 .section4 .s17 .s14 i {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.main4 .section4 .s17:hover .s14 {
+    margin-left: -180px;
+    display: block;
+}
+
+.main4 .section4 .s20 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    display: none;
+    margin-left: 10px;
+}
+
+.main4 .section4 .s12:hover .s20 {
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.main4 .section4 .s20 p {
+    margin-left: -130px;
+    color: white;
+    /* margin-top: 130px; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main4 .section4 .s20 h3 {
+    margin-left: -160px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+.main4 .section4 .s19 {
+    height: inherit;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-5-min.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.main4 .section4 .s19:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgba(162, 37, 41, 0.5), rgba(162, 37, 41, 0.5)), url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Recipe-image-5-min.jpg);
+
+}
+
+.main4 .section4 .s19 .s14 {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    color: white;
+    margin-left: -180px;
+    display: none;
+    transition-duration: 10s;
+}
+
+.main4 .section4 .s19 .s14 i {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.main4 .section4 .s19:hover .s14 {
+    margin-left: -180px;
+    display: block;
+}
+
+.main4 .section4 .s21 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    display: none;
+    margin-left: 10px;
+}
+
+.main4 .section4 .s12:hover .s21 {
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.main4 .section4 .s21 p {
+    margin-left: -130px;
+    color: white;
+    /* margin-top: 130px; */
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main4 .section4 .s21 h3 {
+    margin-left: -100px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.main5 {
+    height: 400px;
+    width: 100%;
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Image2-min.jpeg);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.s25 {
+    height: 300px;
+    width: 900px;
+    /* border: 1px solid white; */
+}
+
+.main5 .s25 h1 {
+    font-weight: lighter;
+    font-size: 45px;
+    margin-top: -50px;
+    color: white;
+}
+
+.main5 .s25 .img3 {
+    height: 80px;
+    width: 250px;
+    margin-top: -80px;
+    margin-left: 330px;
+}
+
+.main5 .s25 p{
+    width: 670px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+.main5 .s25 .b1{
+    height: 45px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 0px;
+    transition-duration: 1s;
+    margin-top: 30px;
+}
+
+.main5 .s25 .b1:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.main5 .s25 .b2{
+    height: 45px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition-duration: 1s;
+    margin-top: 30px;
+}
+
+.main5 .s25 .b2:hover{
+    background-color: #a22529;
+    color: white;
+    border: 0px;
+}
+
+.main6{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.main6 a{
+    font-family: "EB Garamond";
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin-inline: 25px;
+    opacity: 0.5;
+}
+
+.main6 #a1{
+    opacity: 1;
+    border-bottom: 3px solid #a22529;
+    padding-bottom: 5px;
+}
+
+.main6 a:hover{
+    opacity: 1;
+    border-bottom: 3px solid #a22529;
+    padding-bottom: 5px;
+}
+
+.section5{
+    height: 500px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s26{
+    height: inherit;
+    width: 24%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.s27{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-1-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.s27:hover{
+    transform: scale(0.9);
+}
+
+.s29{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-2-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.s29:hover{
+    transform: scale(0.9);
+}
+
+.s30{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-3-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.s30:hover{
+    transform: scale(0.9);
+}
+
+.s31{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(https://xstore.8theme.com/elementor2/spices/wp-content/uploads/sites/10/2023/05/Product-image-5-min-300x300.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+} 
+
+.s31:hover{
+    transform: scale(0.9);
+}
+
+.s28{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.s28 h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+} 
+
+.s28 p{
+    font-family: 'Jost', sans-serif;
+    color: #a22529;
+    margin-top: 10px;
+}
+
+.s28 button{
+    height: 45px;
+    width: 300px;
+    background-color: #a22529;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    margin-top: 10px;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+.s28 button:hover{
+    background-color: black;
+}
+
+.main7{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.main7 .s32{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.main7 .s34{
+    height: 300px;
+    width: 720px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    overflow: hidden;
+}
+.main7 .s34 img{
+    height: inherit;
+    width: inherit;
+    /* border: 1px solid black; */
+    transition-duration: 1s;
+}
+.main7 .s34 img:hover{
+    transform: scale(1.1);
+}
+.main7 .s33{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.main7 .s35{
+    height: 300px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.main7 .s35 h1{
+    font-family: "EB Garamond"; 
+    font-weight: lighter;
+    font-size: 35px;
+}
+.main7 .s35 p{
+    font-family: 'Jost', sans-serif;
+    color: #767373;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.main7 .s35 li{
+    font-family: 'Jost', sans-serif;
+    margin-top: 5px;
+}
+
+.main7 .s35 button{
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+    background-color: white;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+.main7 .s35 button:hover{
+    background-color: #a22529;
+    color: white;
+    border: 0px;
+}
+
+.main8{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.main8 h1{
+    font-family: "EB Garamond"; 
+    font-weight: lighter;
+    text-align: center;
+}
+
+.main8 .s36{
+    height: 470px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.main8 .s37{
+    height: inherit;
+    width: 370px;
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+.s38{
+    height: 350px;
+    width: inherit;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.s38 img{
+    height: inherit;
+    width: inherit;
+    transition-duration: 1s;
+}
+
+.s38:hover img{
+    transform: scale(1.3);
+}
+
+.s40{
+    height: 120px;
+    width: inherit;
+    /* border: 1px solid black; */
+    font-family: 'Jost', sans-serif;
+}
+
+.s40 h3{
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+
+.s40 p{
+    margin-top: 10px;
+    color: #767373;
+    width: 350px;
+}
+
+footer{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+}
+
+.main9{
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin-left: 80px;
+}
+
+.s41{
+    height: inherit;
+    width: 240px;
+    /* border: 1px solid white; */
+}
+
+.s41 i{
+    color: white;
+    margin-inline: 5px;
+}
+
+#li1{
+    font-size: 25px;
+}
+
+.s41 li{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    line-height: 35px;
+    transition-duration: 1s;
+}
+
+.s41 li:hover{
+    color: #a22529;
+}
+
+.s42{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 40px;
+}
+
+.s42 a{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    line-height: 100px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.s42 img{
+    margin-left: 5px;
+}
+.s42 #i3{
+    margin-left: 300px;
+}
